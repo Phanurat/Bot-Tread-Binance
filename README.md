@@ -8,3 +8,7 @@ pip install python-binance
 -open file write => <br> 
 ##API_KEY=Your API<br>
 ##API_SECRET=Your Secret 
+
+#install <br>
+pip install twisted <br>
+
