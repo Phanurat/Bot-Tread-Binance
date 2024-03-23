@@ -26,6 +26,8 @@ client = Client(api_key, api_secret)
 account_info = client.get_account()
 
 # แสดงเฉพาะเหรียญที่มีจำนวนมากกว่าศูนย์ในบัญชี
+ticker = client.get_symbol_ticker(symbol='BTCUSDT')
+print(ticker,"USDT")
 print("เหรียญที่มีในบัญชี:")
 print("-----------------------")
 for balance in account_info['balances']:
